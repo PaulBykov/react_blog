@@ -1,0 +1,24 @@
+header{
+    height: 100vh;
+    width: 100%;
+    font-size: 90px;
+}
+
+header, footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color: #1a1a1a;
+}
+
+h3{
+    z-index: 1;
+
+    text-shadow: darkviolet 0 0 40px;
+}

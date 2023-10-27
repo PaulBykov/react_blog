@@ -1,0 +1,39 @@
+
+.postList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 100%;
+
+    margin: 150px 0 150px 0;
+}
+
+.post{
+    background-color: #ececec;
+    border-radius: 5px;
+
+    padding-left: 10px;
+
+    width: 50%;
+    min-height: 100px;
+
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-break: break-all;
+}
+
+.post > h4{
+    margin: 0;
+
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+    font-size: larger;
+}
+
+.post:nth-child(2n){
+    background-color: #d9d6d6;
+}
+
